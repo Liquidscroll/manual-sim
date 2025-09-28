@@ -1,5 +1,8 @@
 use wasm_bindgen::prelude::*;
 
+#[cfg(test)]
+mod tests;
+
 #[wasm_bindgen]
 pub struct Drivetrain {
     rpm: f32,
